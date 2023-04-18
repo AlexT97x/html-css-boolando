@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .nav-bar{
     width: 100%;
     margin: 0 auto;
@@ -20,11 +24,40 @@
 
 .header{
     background-color: rgb(255, 102, 0);
-
+    padding: 15px 0px;
 }
 
-.menu, .logo, .icone{
-    height: 100px;
-    width: 100%;
-    background-color: blue;
+.menu, .icone{
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
+
+.icone{
+    justify-content: right;
+    padding-right: 300px;
+}
+
+.menu{
+    padding-left: 300px;
+}
+
+
+.menu, .icone ul{
+    list-style-type: none;
+}
+
+.menu, .icone ul li{
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+}
+
+.logo img{
+    width: 140px;
+}
+
+.logo{
+    text-align: center;
+}
+
