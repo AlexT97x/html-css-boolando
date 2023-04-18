@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+}
+
+.col-nav{
+    margin: 0 10px;
+    width: calc(100% / 3);
+}
+
+.header{
+    background-color: rgb(255, 102, 0);
+
+}
+
+.menu{
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+}
+
+.logo{
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+}
+
+.icone{
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+}
