@@ -23,20 +23,8 @@
 
 }
 
-.menu{
+.menu, .logo, .icone{
     height: 100px;
-    width: 300px;
-    background-color: blue;
-}
-
-.logo{
-    height: 100px;
-    width: 300px;
-    background-color: blue;
-}
-
-.icone{
-    height: 100px;
-    width: 300px;
+    width: 100%;
     background-color: blue;
 }
