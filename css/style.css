@@ -71,6 +71,24 @@ strong{
     text-align: center;
 }
 
+.vetrina-cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.vetrina-row{
+    flex-wrap: wrap;
+    width: calc(100% / 3 - 20px);
+    margin: 20px 20px;
+}
+
+.prodotto{
+    height: 400px;
+    width: 100%;
+    background-color: blue;
+
+}
+
 .footer{
     background-color: rgb(40, 40, 40);
     padding: 25px 0px;
